@@ -1,0 +1,68 @@
+.gpt3-navbar{
+    padding: 2rem 6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gpt3-navbar-links{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.gpt3-navbar-links-logo{
+    margin-right: 2rem;
+}
+
+.gpt3-navbar-links-logo img{
+    width: 62.50px;
+    height: 16px;
+}
+
+.gpt3-navbar-links-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.gpt3-navbar-sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.gpt3-navbar-links-container p,
+.gpt3-navbar-sign p,
+.gpt3-navbar-menu-container p{
+    color: #fff;
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+
+.gpt3-navbar-sign button, 
+.gpt3-navbar-menu-container button{
+    padding: .5rem 1rem;
+    font-family: var(--font-family);
+    color: #fff;
+    background: #FF4820;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+}
+
+
+.icon{
+    color: white;
+}
