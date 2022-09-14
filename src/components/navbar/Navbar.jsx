@@ -39,12 +39,12 @@ const Navbar = () => {
 
       <div className="gpt3-navbar-menu" >
     {togglebutton
-      ? <FontAwesomeIcon icon={faXmark} className="icon" size="2x" onClick={()=>setToggleButton(false)} />
-      : <FontAwesomeIcon icon={faBars} size="2x" className="icon"   onClick={()=>setToggleButton(true)} />
+      ? <FontAwesomeIcon icon={faXmark} className="navbar-icon" size="2x" onClick={()=>setToggleButton(false)} />
+      : <FontAwesomeIcon icon={faBars} size="2x" className="navbar-icon"   onClick={()=>setToggleButton(true)} />
       } 
 
       {togglebutton && (
-        <div className="gpt3-navbar-menu-container scale-up">
+        <div className="gpt3-navbar-menu-container scale-up-center">
          <div className="gpt3-navbar-menu-container-links">
          <Menu/>
          <div className="gpt3-navbar-menu-container-links-sign">
